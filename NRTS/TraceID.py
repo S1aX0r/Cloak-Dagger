@@ -4,6 +4,17 @@ import struct
 import time
 import platform
 
+logo = '''
+  TTTTT  RRRR   AAAAA  CCCCC  EEEEE  I   DDDD  
+    T    R   R  A   A  C      E      I   D   D 
+    T    RRRR   AAAAA  C      EEEE   I   D   D 
+    T    R  R   A   A  C      E      I   D   D 
+    T    R   R  A   A  CCCCC  EEEEE  I   DDDD  
+
+'''
+
+print(logo)
+
 def create_packet():
     # Create a dummy packet
     return b'\x00' * 64  # 64 bytes of dummy data
