@@ -2,11 +2,11 @@ import sys
 import socket
 
 logo = '''
-    SSSSS   N   N  AAAAA   K   K   EEEEE   SSSSS CCCC  AAAAA   N   N
-  S       NN  N   A   A   K  K    E      S      C      A   A   NN  N
+  SSSSS  N   N   AAAAA   K   K   EEEEE  SSSSS   CCCC   AAAAA   N   N
+  S      NN  N   A   A   K  K    E      S       C      A   A   NN  N
    SSSS  N N N   AAAAA   KKK     EEEE    SSSS   C      AAAAA   N N N
       S  N  NN   A   A   K  K    E          S   C      A   A   N  NN
-  SSSSS  N   N   A   A   K   K   EEEEE   SSSSS   CCCC  A   A   N   N
+  SSSSS  N   N   A   A   K   K   EEEEE  SSSSS   CCCC   A   A   N   N
 
 '''
 print(logo)
