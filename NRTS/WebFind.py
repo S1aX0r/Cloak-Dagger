@@ -1,5 +1,14 @@
 import requests
 
+logo = '''
+  W   W  EEEEE  B   B  FFFFF  I   N   N  DDDD  
+  W   W  E      B   B  F      I   NN  N  D   D 
+  W W W  EEEE   BBBBB  FFFF   I   N N N  D   D 
+  W W W  E      B   B  F      I   N  NN  D   D 
+   W W   EEEEE  B   B  F      I   N   N  DDDD  
+'''
+print(logo)
+
 def http_content_scanner(url, wordlist):
     found_paths = []
 
