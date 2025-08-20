@@ -1,5 +1,14 @@
 #!/bin/bash
 
+logo='
+BBBB    A    SSSS  H   H W   W  RRRR    A   PPPP
+B   B  A A   S     H   H W   W  R   R  A A  P   P
+BBBB  AAAAA  SSSS  HHHHH W W W  RRRR  AAAAA PPPP
+B   B A   A     S  H   H W W W  R R   A   A P
+BBBB  A   A  SSSS  H   H W   W  R  RR A   A P
+'
+echo "$logo"
+
 if [ "$#" -ne 1 ]; then
     echo "Usage: $0 <payload_script>"
     exit 1

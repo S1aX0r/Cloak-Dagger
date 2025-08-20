@@ -1,13 +1,12 @@
 import base64
-import binascii
 import sys
 
 logo = '''
-PPPP   A   Y   Y CCCCC  OOO  DDDD  EEEEE
-P   P A A   Y Y  C     O   O D   D E    
-PPPP  AAAAA   Y  C     O   O D   D EEEE 
-P     A   A   Y  C     O   O D   D E    
-P     A   A   Y  CCCCC  OOO  DDDD  EEEEE
+PPPP    A   Y   Y CCCCC  OOO  DDDD  EEEEE
+P   P  A A   Y Y  C     O   O D   D E    
+PPPP  AAAAA   Y   C     O   O D   D EEEE 
+P     A   A   Y   C     O   O D   D E    
+P     A   A   Y   CCCCC  OOO  DDDD  EEEEE
 '''
 print(logo)
 

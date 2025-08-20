@@ -1,5 +1,14 @@
 #!/bin/bash
 
+logo='
+PPPP    A   Y   Y DDDD    A   Y   Y
+P   P  A A   Y Y  D   D  A A   Y Y
+PPPP  AAAAA   Y   D   D AAAAA   Y
+P     A   A   Y   D   D A   A   Y
+P     A   A   Y   DDDD  A   A   Y
+'
+echo "$logo"
+
 echo "Checking OS version / name"
 echo
 os_info=$(uname -a)  
